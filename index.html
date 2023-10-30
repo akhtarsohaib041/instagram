@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <img src="/instagram/insta-image/logo.png" class="logo-img">
+
+            <div class="following-follow" onclick="followingMenuToggle()">
+                <img src="/instagram/insta-image/arrow.png" width="10px">
+            </div>
+
+            <!-- Following  -->
+
+            <div class="following-menu">
+                <div class="following-inner">
+                    <div class="following">
+                        <p>Following</p>
+                        <img src="/instagram/insta-image/profile-home.png">
+                    </div>
+                    <hr>
+                    <div class="favorite">
+                        <p>Favorites</p>
+                        <img src="/instagram/insta-image/star.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="search-bar">
+            <img src="/instagram/insta-image/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="notifection">
+            <img src="/instagram/insta-image/heart.png">
+        </div>
+
+    </nav>
+    
+
+
+    
+    <div class="container">
+
+        <!-- Left Sidebar  -->
+
+        <div class="left-sidebar">
+            <a href="#">
+                <img src="/instagram/insta-image/logo.png" class="logo">
+            </a>
+            <div class="left-sidebar-inner">
+                <a href="#"><img src="/instagram/insta-image/home.png">Home</a>
+                <a onclick="searchMenuToggle()" class="search-btn" href="#"><img src="/instagram/insta-image/search.png">Search</a>
+                <a href="#"><img src="/instagram/insta-image/explore.png">Explore</a>
+                <a href="#"><img src="/instagram/insta-image/video.png">Reels</a>
+                <a href="#"><img src="/instagram/insta-image/messenger.png">Messages</a>
+                <a href="#"><img src="/instagram/insta-image/heart.png">Notifications</a>
+                <a href="#"><img src="/instagram/insta-image/tab.png">Create</a>
+                <a href="#"><img src="/instagram/insta-image/profile-pic.png">Profile</a>
+            </div>
+            <div class="more-img" onclick="settingMenuToggle()">
+                <a href="#"><img src="/instagram/insta-image/menu1.png">More</a>
+            </div>
+
+
+            <!-- Setting Menu  -->
+            
+
+            <div class="setting-menu">
+
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+    
+                <div class="setting-menu-inner">
+    
+                    <div class="user-profile">
+                        <img src="/instagram/insta-image/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <a href="#">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+    
+                    <div class="user-profile">
+                        <img src="/instagram/insta-image/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help Us To Improve The New Design</a>
+                        </div>
+                    </div>
+                    <hr>
+    
+                    <div class="setting-links">
+                        <img class="setting-icon" src="/instagram/insta-image/setting.png">
+                        <a href="#">Settings & Privicy <img src="insta-image/arrow.png" width="10px"></a>
+                    </div>
+    
+                    <div class="setting-links">
+                        <img class="setting-icon" src="/instagram/insta-image/help.png">
+                        <a href="#">Help & Support <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                    </div>
+    
+                    <div class="setting-links">
+                        <img class="setting-icon" src="/instagram/insta-image/display.png">
+                        <a href="#">Display & Accessibility <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                    </div>
+    
+                    <div class="setting-links">
+                        <img class="setting-icon" src="/instagram/insta-image/logout.png">
+                        <a href="#">Logout <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                    </div>
+    
+    
+                </div>
+    
+            
+            </div>
+
+            <!-- Search Menu  -->
+
+            <div class="search-menu">
+
+                <div class="search-menu-inner">
+
+                    <div class="search-menu-icon">
+                    
+                        <div><img src="/instagram/insta-image/instagram.png"></div>
+    
+                        <div><img src="/instagram/insta-image/home.png"></div>
+                        <div onclick="searchMenuOf()"><img src="/instagram/insta-image/search.png"></div>
+                        <div><img src="/instagram/insta-image/explore.png"></div>
+                        <div><img src="/instagram/insta-image/video.png"></div>
+                        <div><img src="/instagram/insta-image/messenger.png"></div>
+                        <div><img src="/instagram/insta-image/heart.png"></div>
+                        <div><img src="/instagram/insta-image/tab.png"></div>
+                        <div class="search-profile"><img src="/instagram/insta-image/profile-pic.png"></div>
+                        <div onclick="settingMenuToggle()"><img src="/instagram/insta-image/menu1.png"></div>
+    
+                    </div>
+                    <hr>
+    
+                    <div class="right-search">
+                        <div class="search-top">
+                            <h2>Search</h2>
+    
+                            <div class="search-box">
+                                <input placeholder="Search" type="text">
+                                <img src="/instagram/insta-image/arrow.png">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="recent-search">
+                            <p>Recent</p>
+                            <a href="#">Search</a>
+                        </div>
+                    </div>
+    
+                </div>
+                
+            </div>
+
+        </div>
+        <hr>
+
+
+
+        <!-- Main Content  -->
+
+
+        <div class="main-content">
+
+            <div class="story">
+
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-1.png">
+                    <p>Muslim</p>
+                </div>
+    
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-2.png">
+                    <p>Craftwave</p>
+                </div>
+    
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-3.png">
+                    <p>Qasier_nawaz</p>
+                </div>
+    
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-4.png">
+                    <p>ghantaa</p>
+                </div>
+    
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-5.png">
+                    <p>Arbaz-Ali</p>
+                </div>
+    
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-6.png">
+                    <p>Shrity-any</p>
+                </div>
+    
+                <div class="story-gallary story-gallary1">
+                    <img src="/instagram/insta-image/member-7.png">
+                    <p>I_am_srk</p>
+                </div>
+                <div class="story-gallary">
+                    <img src="/instagram/insta-image/member-8.png">
+                    <p>Ali_iraqui</p>
+                </div>
+            </div>
+
+
+
+            <div class="post-container-inner">
+
+
+                <div class="post-container">
+
+                    <div class="follow-list">
+                        <img src="/instagram/insta-image/member-1.png">
+                        <div class="left-follow">
+                            <p>Ruby_osmgirl</p>
+                            <span>Dilbahar, Akshay Verma • Superchor</span>
+                        </div>
+                        <a class="more" href="#"><img onclick="moreMenuToggle()" src="/instagram/insta-image/more.png"></a>
+
+                    </div>
+
+                    <!-- More Menu  -->
+
+                    <div class="more-menu">
+
+                        <div class="more-menu-inner">
+
+                            <div class="more-icon">
+                                <div class="more-icon-top">
+                                    <div>
+                                        <img src="/instagram/insta-image/save-instagram.png">
+                                    </div>
+                                    <a href="#">Save</a>
+                                </div>
+
+                                <div class="more-icon-top">
+                                    <div>
+                                        <img src="/instagram/insta-image/shuffle.png">
+                                    </div>
+                                    <a href="#">Remix</a>
+                                </div>
+
+                                <div class="more-icon-top">
+                                    <div>
+                                        <img src="/instagram/insta-image/qr-code.png">
+                                    </div>
+                                    <a href="#">QR code</a>
+                                </div>
+
+                                                            
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/send.png">
+                                <div class="share-links">
+                                    <div class="share-para">
+                                        <p>We're moving things around</p>
+                                        <a href="#">See Where to share and link</a>
+                                    </div>
+
+                                    <div>
+                                        <img src="/instagram/insta-image/arrow.png" width="10px">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/star.png">
+                                <div class="share-links">
+                                    <p>Add to favorites</p>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/unfollow.png">
+                                <div class="share-links">
+                                    <p>Unfollow</p>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/question.png">
+                                <div class="share-links">
+                                    <p>Why you are seeing this post</p>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/hidden.png">
+                                <div class="share-links">
+                                    <p>Hide</p>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/user.png">
+                                <div class="share-links">
+                                    <p>About this account</p>
+                                </div>
+                            </div>
+
+                            <div class="share">
+                                <img class="share-img" src="/instagram/insta-image/exclamation-mark.png">
+                                <div class="share-links">
+                                    <p class="report">Report</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <img src="/instagram/insta-image/feed-image-3.png" class="post">
+    
+                    <div class="post-icon">
+                        <div class="post-icon-left">
+                            <a href="#"><img src="/instagram/insta-image/heart.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/chat.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/send.png"></a>
+                        </div>
+                        <div class="post-icon-right">
+                            <a href="#"><img src="/instagram/insta-image/save-instagram.png"></a>
+                        </div>
+                    </div>
+                    <p class="text-like">22 Likes</p>
+                    <div class="name">
+                        <p>Ruby_osmgirl_Follow...</p>
+                        <span>more</span>
+                    </div>
+                    <div class="comment">
+                        <p>View 1 comment</p>
+                        <div class="input-post">
+                            <input type="text" placeholder="Write a comment...">
+                            <img src="/instagram/insta-image/feeling.png" alt="smile">
+                        </div>
+                    </div>
+    
+                </div>
+
+    
+    
+                <div class="post-container">
+    
+                    <div class="follow-list">
+                        <img class="post-profile-img" src="/instagram/insta-image/member-1.png">
+                        <div class="left-follow">
+                            <p>Ruby_osmgirl</p>
+                            <span>Dilbahar, Akshay Verma • Superchor</span>
+                        </div>
+                        <a href="#"><img onclick="moreMenuToggle()" src="/instagram/insta-image/more.png"></a>
+                    </div>
+
+                    <img src="/instagram/insta-image/post-2.jpg" class="post">
+    
+                    <div class="post-icon">
+                        <div class="post-icon-left">
+                            <a href="#"><img src="/instagram/insta-image/heart.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/chat.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/send.png"></a>
+                        </div>
+                        <div class="post-icon-right">
+                            <a href="#"><img src="/instagram/insta-image/save-instagram.png"></a>
+
+                        </div>
+                    </div>
+                    <p class="text-like">22 Likes</p>
+                    <div class="name">
+                        <p>Ruby_osmgirl_Follow...</p>
+                        <span>more</span>
+                    </div>
+                    <div class="comment">
+                        <p>View 1 comment</p>
+                        <div class="input-post">
+                            <input type="text" placeholder="Write a comment...">
+                            <img src="/instagram/insta-image/feeling.png" alt="smile">
+                        </div>
+                    </div>
+                    
+                </div>
+    
+    
+    
+    
+    
+    
+                <div class="post-container">
+    
+                    <div class="follow-list">
+                        <img src="/instagram/insta-image/member-1.png">
+                        <div class="left-follow">
+                            <p>Ruby_osmgirl</p>
+                            <span>Dilbahar, Akshay Verma • Superchor</span>
+                        </div>
+                        <a href="#"><img onclick="moreMenuToggle()" src="/instagram/insta-image/more.png"></a>
+                    </div>
+                    <img src="/instagram/insta-image/post-1.jpg" class="post">
+    
+                    <div class="post-icon">
+                        <div class="post-icon-left">
+                            <a href="#"><img src="/instagram/insta-image/heart.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/chat.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/send.png"></a>
+                        </div>
+                        <div class="post-icon-right">
+                            <a href="#"><img src="/instagram/insta-image/save-instagram.png"></a>
+                        </div>
+                    </div>
+                    <p class="text-like">22 Likes</p>
+                    <div class="name">
+                        <p>Ruby_osmgirl_Follow...</p>
+                        <span>more</span>
+                    </div>
+                    <div class="comment">
+                        <p>View 1 comment</p>
+                        <div class="input-post">
+                            <input type="text" placeholder="Write a comment...">
+                            <img src="/instagram/insta-image/feeling.png" alt="smile">
+                        </div>
+                    </div>                    
+    
+                </div>
+    
+    
+    
+    
+    
+    
+                <div class="post-container">
+    
+                    <div class="follow-list">
+                        <img src="/instagram/insta-image/member-1.png">
+                        <div class="left-follow">
+                            <p>Ruby_osmgirl</p>
+                            <span>Dilbahar, Akshay Verma • Superchor</span>
+                        </div>
+                        <a href="#"><img onclick="moreMenuToggle()" src="/instagram/insta-image/more.png"></a>
+                    </div>
+                    <img src="/instagram/insta-image/feed-image-1.png" class="post">
+    
+                    <div class="post-icon">
+                        <div class="post-icon-left">
+                            <a href="#"><img src="/instagram/insta-image/heart.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/chat.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/send.png"></a>
+                        </div>
+                        <div class="post-icon-right">
+                            <a href="#"><img src="/instagram/insta-image/save-instagram.png"></a>
+                        </div>
+                    </div>
+                    <p class="text-like">22 Likes</p>
+                    <div class="name">
+                        <p>Ruby_osmgirl_Follow...</p>
+                        <span>more</span>
+                    </div>
+                    <div class="comment">
+                        <p>View 1 comment</p>
+                        <div class="input-post">
+                            <input type="text" placeholder="Write a comment...">
+                            <img src="/instagram/insta-image/feeling.png" alt="smile">
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+    
+    
+    
+                <div class="post-container">
+    
+                    <div class="follow-list">
+                        <img src="/instagram/insta-image/member-1.png">
+                        <div class="left-follow">
+                            <p>Ruby_osmgirl</p>
+                            <span>Dilbahar, Akshay Verma • Superchor</span>
+                        </div>
+                        <a href="#"><img onclick="moreMenuToggle()" src="/instagram/insta-image/more.png"></a>
+                    </div>
+                    <img src="/instagram/insta-image/feed-image-4.png" class="post">
+    
+                    <div class="post-icon">
+                        <div class="post-icon-left">
+                            <a href="#"><img src="/instagram/insta-image/heart.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/chat.png"></a>
+                            <a href="#"><img src="/instagram/insta-image/send.png"></a>
+                        </div>
+                        <div class="post-icon-right">
+                            <a href="#"><img src="/instagram/insta-image/save-instagram.png"></a>
+                        </div>
+                    </div>
+                    <p class="text-like">22 Likes</p>
+                    <div class="name">
+                        <p>Ruby_osmgirl_Follow...</p>
+                        <span>more</span>
+                    </div>
+                    <div class="comment">
+                        <p>View 1 comment</p>
+                        <div class="input-post">
+                            <input type="text" placeholder="Write a comment...">
+                            <img src="/instagram/insta-image/feeling.png" alt="smile">
+                        </div>
+                    </div>
+    
+                </div>
+                
+                
+            
+            </div>
+
+        </div>
+
+
+
+
+        <!-- Right Sidebar  -->
+
+        <div class="right-sidebar">
+            
+
+            <div class="right-sidebar-inner">
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/profile-pic.png">
+                    <div class="left-follow">
+                        <p>Suhaibiraque007</p>
+                        <span>Mohd Sohaib Iraque</span>
+                    </div>
+                    <a href="#">Switch</a>
+                </div>
+
+                <div class="suggection">
+                    <p>Suggested for You</p>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/member-1.png">
+                    <div class="left-follow">
+                        <p>-decor.candlex</p>
+                        <span>New to instagram</span>
+                    </div>
+                    <a href="#">Follow</a>
+
+                </div>
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/member-2.png">
+                    <div class="left-follow">
+                        <p>Suhaibiraque007</p>
+                        <span>Follows You</span>
+                    </div>
+                    <a href="#">Follow</a>
+                </div>
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/member-3.png">
+                    <div class="left-follow">
+                        <p>I_am_srk</p>
+                        <span>Followed by Ali</span>
+                    </div>
+                    <a href="#">Follow</a>
+                </div>
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/member-4.png">
+                    <div class="left-follow">
+                        <p>itz_saad</p>
+                        <span>Follows You</span>
+                    </div>
+                    <a href="#">Follow</a>
+
+                </div>
+
+                <div class="follow-list">
+                    <img src="/instagram/insta-image/member-2.png">
+                    <div class="left-follow">
+                        <p>Suhaibiraque007</p>
+                        <span>Follows You</span>
+                    </div>
+                    <a href="#">Follow</a>
+                </div>
+
+            </div>
+
+            <div class="about-insta">
+                <p>About Help Press API Jobs Privacy Terms Locations Language Meta Verified</p>
+
+                <div>
+                    <span>@ 2023 instagram FROM META</span>
+                </div>
+            </div>
+                
+
+        </div>
+
+
+    </div>
+
+    <div class="bottom-menu">
+
+        <div class="home-bar">
+            <img src="/instagram/insta-image/home.png">
+        </div>
+
+        <div class="explore-bar">
+            <img src="/instagram/insta-image/explore.png">
+        </div>
+
+        <div class="reels-bar">
+            <img src="/instagram/insta-image/video.png">
+        </div>
+
+        <div class="newpost-bar">
+            <img src="/instagram/insta-image/tab.png">
+        </div>
+
+        <div class="message-bar">
+            <img src="/instagram/insta-image/messenger.png">
+        </div>
+
+        <div onclick="mobileMenuToggle()" class="profile-bar">
+            <img src="/instagram/insta-image/profile-pic.png">
+        </div>
+
+
+        <!-- Setting Menu  -->
+            
+
+        <div class="mobile-menu">
+
+
+            <div id="mobile-dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+
+                <div class="user-profile">
+                    <img src="/instagram/insta-image/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="user-profile">
+                    <img src="/instagram/insta-image/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us To Improve The New Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img class="setting-icon" src="/instagram/insta-image/setting.png">
+                    <a href="#">Settings & Privicy <img src="insta-image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img class="setting-icon" src="/instagram/insta-image/help.png">
+                    <a href="#">Help & Support <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img class="setting-icon" src="/instagram/insta-image/display.png">
+                    <a href="#">Display & Accessibility <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="setting-links">
+                    <img class="setting-icon" src="/instagram/insta-image/logout.png">
+                    <a href="#">Logout <img src="/instagram/insta-image/arrow.png" width="10px"></a>
+                </div>
+
+
+            </div>
+
+        
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
